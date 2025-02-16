@@ -84,7 +84,7 @@ if __name__=="__main__":
 
 
         predictions = model.predict(X_train)
-        signature = infer_signature(X_test, predictions)
+        # signature = infer_signature(X_test, predictions)
 
         # Log model seperately to have more flexibility on setup 
         #mlflow.keras.log_model(
